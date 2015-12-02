@@ -23,7 +23,7 @@
         android:name="com.parse.starter.StarterApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="Q Backend Test"
         android:theme="@style/AppTheme" >
         <meta-data
             android:name="com.parse.APPLICATION_ID"
@@ -34,7 +34,7 @@
 
         <activity
             android:name="com.parse.starter.MainActivity"
-            android:label="@string/app_name" >
+            android:label="Q Backend Test" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

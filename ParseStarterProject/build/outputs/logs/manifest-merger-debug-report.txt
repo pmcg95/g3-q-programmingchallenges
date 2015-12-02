@@ -26,7 +26,7 @@ ADDED from /Users/DopeDev/Documents/cs160/finalproj/Parse-Starter-Project-1.11.0
 MERGED from [com.android.support:appcompat-v7:22.2.0] /Users/DopeDev/Documents/cs160/finalproj/Parse-Starter-Project-1.11.0/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-v4:22.2.0] /Users/DopeDev/Documents/cs160/finalproj/Parse-Starter-Project-1.11.0/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/AndroidManifest.xml:22:5-20
 	android:label
-		ADDED from /Users/DopeDev/Documents/cs160/finalproj/Parse-Starter-Project-1.11.0/ParseStarterProject/src/main/AndroidManifest.xml:20:9-41
+		ADDED from /Users/DopeDev/Documents/cs160/finalproj/Parse-Starter-Project-1.11.0/ParseStarterProject/src/main/AndroidManifest.xml:20:9-39
 	android:allowBackup
 		ADDED from /Users/DopeDev/Documents/cs160/finalproj/Parse-Starter-Project-1.11.0/ParseStarterProject/src/main/AndroidManifest.xml:18:9-35
 	android:icon
@@ -50,7 +50,7 @@ ADDED from /Users/DopeDev/Documents/cs160/finalproj/Parse-Starter-Project-1.11.0
 activity#com.parse.starter.MainActivity
 ADDED from /Users/DopeDev/Documents/cs160/finalproj/Parse-Starter-Project-1.11.0/ParseStarterProject/src/main/AndroidManifest.xml:29:9-37:20
 	android:label
-		ADDED from /Users/DopeDev/Documents/cs160/finalproj/Parse-Starter-Project-1.11.0/ParseStarterProject/src/main/AndroidManifest.xml:31:13-45
+		ADDED from /Users/DopeDev/Documents/cs160/finalproj/Parse-Starter-Project-1.11.0/ParseStarterProject/src/main/AndroidManifest.xml:31:13-43
 	android:name
 		ADDED from /Users/DopeDev/Documents/cs160/finalproj/Parse-Starter-Project-1.11.0/ParseStarterProject/src/main/AndroidManifest.xml:30:13-41
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER

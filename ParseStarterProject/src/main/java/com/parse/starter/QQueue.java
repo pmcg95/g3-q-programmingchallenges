@@ -16,6 +16,7 @@ public class QQueue {
             public void done(ParseObject object, ParseException e) {
                 if (object == null) {
                     ParseQuery<ParseObject> query = ParseQuery.getQuery("QueuePlace");
+                    query.whereEqualTo("company", company);
                     query.orderByDescending("place");
 
                     query.getFirstInBackground(new GetCallback<ParseObject>() {
@@ -31,6 +32,10 @@ public class QQueue {
                             queuePlace.put("userID", myId);
                             queuePlace.put("company", company);
                             queuePlace.put("place", place);
+                            ParseACL acl = new ParseACL();
+                            acl.setPublicReadAccess(true);
+                            acl.setPublicWriteAccess(true);
+                            queuePlace.setACL(acl);
                             queuePlace.saveInBackground(callback);
                         }
                     });
